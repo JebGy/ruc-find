@@ -5,10 +5,10 @@ function Home() {
     <div className="container">
       <div className="main">
         <h2 className="title">Search any ruc free!</h2>
-        <Link to="/consultar" className="actions">
+        <Link to="/ruc-find/consultar" className="actions">
           Let's start
         </Link>
-        <footer className="footer">Created by Favio Munayco</footer>
+        <footer className="footer">Created by Favio Gabriel Munayco Rivera</footer>
       </div>
     </div>
   );

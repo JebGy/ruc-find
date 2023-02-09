@@ -1,9 +1,9 @@
 :root {
-  --dark: #10133e;
-  --purple: #9c01f5;
-  --red: #f44d4c;
+  --dark: #484E5B;
+  --purple: #E9E8E4;
+  --red: #F83456;
   --orange: #ffae44;
-  --blue: #004af5;
+  --blue: #43C2B8;
   font-family: "Poppins", sans-serif;
 }
 body {
@@ -41,8 +41,8 @@ body {
   background: rgb(16, 19, 62);
   background: linear-gradient(
     30deg,
-    rgba(16, 19, 62, 1) 50%,
-    rgba(244, 76, 76, 1) 50%
+    var(--dark) 50%,
+    var(--red) 50%
   );
 }
 
@@ -193,10 +193,10 @@ body {
   top: 20px;
   left: 20px;
   cursor: pointer;
-  background: rgb(0, 74, 245);
+  background: var(--blue);
   background: linear-gradient(
     90deg,
-    rgba(0, 74, 245, 1) 0%,
+    var(--blue) 0%,
     rgba(244, 76, 76, 0) 100%
   );
   border-radius: 50px;

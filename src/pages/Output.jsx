@@ -39,7 +39,7 @@ function Output() {
 
   return (
     <div className="app__container">
-      <Link to="/" className="btn__back">Back</Link>
+      <Link to="/ruc-find/" className="btn__back">Back</Link>
       <h1 className="app__title">Let's search</h1>
       <input
         className="app__input"
